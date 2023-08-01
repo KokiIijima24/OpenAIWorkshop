@@ -23,7 +23,7 @@ Launch [Azure Portal](https://portal.azure.com)(control+click) and open Azure Cl
 
 In the Cloud Shell, in Bash mode type:
 
-    git clone https://github.com/microsoft/OpenAIWorkshop.git
+    git clone https://github.com/KokiIijima24/OpenAIWorkshop.git
 
     cd OpenAIWorkshop/scenarios/openai_on_custom_dataset/deploy/
 

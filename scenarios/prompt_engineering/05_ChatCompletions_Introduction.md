@@ -73,4 +73,4 @@ The user role is the message that the user sends to the assistant. This is the m
 
 ## **Example ChatCompletion.create() Calls**
 
-For a more comprehensive overview of the ChatCompletions.create() method, please see the [ChatCompletions.ipynb notebook](https://github.com/microsoft/OpenAIWorkshop/blob/main/scenarios/powerapp_and_python/python/ChatCompletions.ipynb) within the [power_app_and_python](https://github.com/microsoft/OpenAIWorkshop/tree/main/scenarios/powerapp_and_python) scenario.
+For a more comprehensive overview of the ChatCompletions.create() method, please see the [ChatCompletions.ipynb notebook](https://github.com/KokiIijima24/OpenAIWorkshop/blob/main/scenarios/powerapp_and_python/python/ChatCompletions.ipynb) within the [power_app_and_python](https://github.com/KokiIijima24/OpenAIWorkshop/tree/main/scenarios/powerapp_and_python) scenario.

@@ -15,7 +15,7 @@ In this version, there are still a routing agent that delegate request to two sp
 ## Open AI setup
 Create an Azure OpenAI deployment in an Azure subscription with a GPT-35-Turbo deployment .
 ## Run the application locally
-1. Clone the repo (e.g. ```git clone https://github.com/microsoft/OpenAIWorkshop.git``` or download). Then navigate to ```cd scenarios/incubations/copilot```
+1. Clone the repo (e.g. ```git clone https://github.com/KokiIijima24/OpenAIWorkshop.git``` or download). Then navigate to ```cd scenarios/incubations/copilot```
 2. Create a `secrets.env` file in the root of streamlit folder
     AZURE_OPENAI_ENDPOINT="YOUR_OPEN_AI_ENDPOINT"
     AZURE_OPENAI_API_KEY="OPEN_AI_KEY"

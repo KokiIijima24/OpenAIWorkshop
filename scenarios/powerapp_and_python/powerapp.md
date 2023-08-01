@@ -3,7 +3,27 @@
 
 ### Prerequiste
 
-[Azure OpenAI resource](https://learn.microsoft.com/en-us/azure/cognitive-services/openai/how-to/create-resource?pivots=web-portal#prerequisites)
+#### Open AI リソースの作成
+
+以下の手順でAzure PortalからOpen AIリソースの作成を実施してください。
+
+> 今回はワークショップ用にサブスクリプション「MSA_Workshop」を払い出しています。サブスクリプションが割り当たっていないという方は、Iijima Koki, Enomoto, Masahiroへお声掛けください。
+
+Azure Portalへサインインし、検索窓からOpen AIを検索
+
+![image-20230801132908033](../../documents/media/CreateOpenAI01.png)
+
+「作成」をクリック
+
+![image-20230801132859779](../../documents/media/CreateOpenAI02.png)
+
+サブスクリプション「MSA_AzureWorkshop」を選択
+
+![image-20230801132846396](../../documents/media/CreateOpenAI03.png)
+
+以下の内容で作成をクリック
+
+![image-20230801133225130](../../documents/media/CreateOpenAI04.png)
 
 ### Step 1. Sign in to Power Apps
 
@@ -18,6 +38,10 @@
 
 
 - From the top nav bar, click Import Canvas App and upload the power app zip file from this git repo path. 
+
+  [OpenAI-Playground_20230302010547.zip](https://github.com/KokiIijima24/OpenAIWorkshop/blob/main/scenarios/powerapp_and_python/powerapp/OpenAI-Playground_20230302010547.zip)
+
+  
 
 
   <img src="../../documents/media/importpowerapp.png" width=50% height=50%>
@@ -48,6 +72,30 @@
 
   <img src="../../documents/media/flowchangeapikey.png" width=50% height=50%>
 
+Bodyの中身を以下のように書き換えてください。
+
+```
+{
+  "messages": [
+    {
+      "role": "system",
+      "content": "You are an AI assistant that helps people find information."
+    },
+    {
+      "role": "user",
+      "content": @{triggerBody()['Initializevariable_Value']}
+    }
+  ],
+  "max_tokens": 800,
+  "temperature": 0.7,
+  "frequency_penalty": 0,
+  "presence_penalty": 0,
+  "top_p": 0.95,
+  "stop": null
+}
+```
+
+また、api-keyを取得して、設定してください。
 
 - Save the flow and make sure that flow is turned on
 

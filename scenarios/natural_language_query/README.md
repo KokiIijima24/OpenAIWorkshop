@@ -28,7 +28,7 @@ a. Launch [Azure Portal](https://portal.azure.com) and open Azure Cloud Shell
 
 b. In the cloud shell,clone the respository by using the below command
 ```
-git clone https://github.com/microsoft/OpenAIWorkshop.git
+git clone https://github.com/KokiIijima24/OpenAIWorkshop.git
 ```
 c. In the cloud shell, navigate to "scenarios/natural_language_query/azurefunc" folder by using the below command
   ```
@@ -164,7 +164,7 @@ b.  Click on Data -> “Custom Connectors”, click on “New custom connector�
 ![image](https://user-images.githubusercontent.com/50298139/224201199-b14ab884-ed97-4abb-ae9f-c0d464e4658d.png)
 
 
-c.  Go to https://github.com/microsoft/OpenAIWorkshop/tree/main/scenarios/natural_language_query and open "get-prompt.txt". We need to update below values in file 
+c.  Go to https://github.com/KokiIijima24/OpenAIWorkshop/tree/main/scenarios/natural_language_query and open "get-prompt.txt". We need to update below values in file 
 
 
 

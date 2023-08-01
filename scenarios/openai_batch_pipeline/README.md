@@ -88,7 +88,7 @@ Accept the agreement and install on the default path:
 ```
 
 ```bash 
-    git clone https://github.com/microsoft/OpenAIWorkshop.git
+    git clone https://github.com/KokiIijima24/OpenAIWorkshop.git
     cd OpenAIWorkshop/scenarios/openai_batch_pipeline/document_generation
     conda create -n document-creation
     conda activate document-creation

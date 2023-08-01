@@ -61,7 +61,7 @@
     },
     "packageUri": {
       "type": "string",
-      "defaultValue": "https://github.com/microsoft/OpenAIWorkshop/raw/main/scenarios/data/orchestrator.zip",
+      "defaultValue": "https://github.com/KokiIijima24/OpenAIWorkshop/raw/main/scenarios/data/orchestrator.zip",
       "metadata": {
         "description": "The zip content url."
       }

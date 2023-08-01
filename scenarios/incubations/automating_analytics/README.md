@@ -42,7 +42,7 @@ The application supports Python's built-in SQLITE as well as your own Microsoft 
 Here we provide options to use both but GPT-4 should be used to address difficult & vague  questions.
 We assume that your GPT-4 and CHATGPT deployments are in the same Azure Open AI resource.
 ## Install the application locally 
-1. Clone the repo (e.g. ```git clone https://github.com/microsoft/OpenAIWorkshop.git``` or download). Then navigate to ```cd scenarios/incubations/automating_analytics```
+1. Clone the repo (e.g. ```git clone https://github.com/KokiIijima24/OpenAIWorkshop.git``` or download). Then navigate to ```cd scenarios/incubations/automating_analytics```
 2. (Optional) Provide settings for Open AI and Database.You can either create a `secrets.env` file in the root of this folder (scenarios/incubations/automating_analytics) as below or do it using the app's UI later on. 
     - Option 1: use built-in SQLITE. Then you don't need to install SQL Server.
         ```txt
@@ -79,7 +79,7 @@ This application can be deployed to an Azure subscription using the Azure Develo
 There is no need to have any coding experience to deploy this application but you will need permissions to create resources in an Azure Subscription
 To deploy to Azure:
 - Install [Azure Developer CLI](https://aka.ms/azure-dev/install)   
-- Use either `git clone https://github.com/microsoft/OpenAIWorkshop.git` to clone the repo or download a zip
+- Use either `git clone https://github.com/KokiIijima24/OpenAIWorkshop.git` to clone the repo or download a zip
 - Go to the local directory of the OpenAIWorkshop
     > 💡 NOTE: It is very important to be in the root folder of the project
 - Authenticate to Azure by running `azd auth login`

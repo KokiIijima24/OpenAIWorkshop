@@ -44,7 +44,7 @@ To make it easy for the labs, the sample document has already been chunked and p
     Run the below commands from cmd prompt to conifgure python environment. Conda is optional if running in Azure Cloud Shell or if an isolated python environment is needed. 
 
         
-        git clone https://github.com/microsoft/OpenAIWorkshop.git
+        git clone https://github.com/KokiIijima24/OpenAIWorkshop.git
         
         cd OpenAIWorkshop/scenarios/openai_on_custom_dataset
         
@@ -77,7 +77,7 @@ To make it easy for the labs, the sample document has already been chunked and p
         AFR_ENDPOINT="<YOUR Azure Form Recognizer Service API EndPoint>"
         AFR_API_KEY="<YOUR Azure Form Recognizer API Key>"
         INDEX_NAME="azure-ml-docs"
-        FILE_URL="https://github.com/microsoft/OpenAIWorkshop/raw/main/scenarios/data/azure-machine-learning-2-500.pdf"
+        FILE_URL="https://github.com/KokiIijima24/OpenAIWorkshop/raw/main/scenarios/data/azure-machine-learning-2-500.pdf"
         LOCAL_FOLDER_PATH=""
 
 *   The document processing, chunking, indexing can all be scripted using any preferred language. 
