@@ -25,6 +25,12 @@ Azure Portalへサインインし、検索窓からOpen AIを検索
 
 ![image-20230801133225130](../../documents/media/CreateOpenAI04.png)
 
+リソースの作成が完了すると、キーとエンドポイントが発行されます。こちらの情報は後ほど使いますのでメモするようにしてください。
+
+![image-20230801134534501](../../documents/media/CreateOpenAI05.png)
+
+
+
 ### Step 1. Sign in to Power Apps
 
 - You can sign in to power apps with your existing licence or you can sign up for free - https://powerapps.microsoft.com/
