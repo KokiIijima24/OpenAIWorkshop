@@ -47,9 +47,6 @@ Azure Portalへサインインし、検索窓からOpen AIを検索
 
 [OpenAIPlayground-JBSWorkshop_20230808043647.zip](https://github.com/KokiIijima24/OpenAIWorkshop/blob/main/scenarios/powerapp_and_python/powerapp/OpenAIPlayground-JBSWorkshop_20230808043647.zip)
 
-  
-
-
   <img src="../../documents/media/importpowerapp.png" width=50% height=50%>
 
 
