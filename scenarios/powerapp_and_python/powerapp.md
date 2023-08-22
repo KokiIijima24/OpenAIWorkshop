@@ -50,10 +50,7 @@ Azure Portalへサインインし、検索窓からOpen AIを検索
 
 - From the top nav bar, click Import Canvas App and upload the power app zip file from this git repo path. 
 
-  [OpenAI-Playground_20230302010547.zip](https://github.com/KokiIijima24/OpenAIWorkshop/blob/main/scenarios/powerapp_and_python/powerapp/OpenAIPlayground-JBSWorkshop_20230808082726.zip)
-
-  
-
+[OpenAIPlayground-JBSWorkshop_20230808082726.zip](https://github.com/KokiIijima24/OpenAIWorkshop/blob/main/scenarios/powerapp_and_python/powerapp/OpenAIPlayground-JBSWorkshop_20230808082726.zip)
 
   <img src="../../documents/media/importpowerapp.png" width=50% height=50%>
 
