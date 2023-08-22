@@ -1,34 +1,39 @@
 
 ## POWER APP
 
+今回、JBS社内でワークショップを実施するため、[microsoft - OpenAIWorkshop](https://github.com/microsoft/OpenAIWorkshop)のリポジトリをForkしたものを展開しています。
+
 ### Prerequiste
+
+Power AppsをOpen AIのインターフェースとする簡単なアプリケーションを作成します。
+
+  <img src="workshop-overview.png" width=50% height=50%>
+
 
 #### Open AI リソースの作成
 
 以下の手順でAzure PortalからOpen AIリソースの作成を実施してください。
 
-> 今回はワークショップ用にサブスクリプション「MSA_Workshop」を払い出しています。サブスクリプションが割り当たっていないという方は、Iijima Koki, Enomoto, Masahiroへお声掛けください。
+> 今回はワークショップ用にサブスクリプション「MSA_Workshop」を払い出しています。サブスクリプションが割り当たっていないという方は、koki, iijimaへお声掛けください。
 
 Azure Portalへサインインし、検索窓からOpen AIを検索
 
-![image-20230801132908033](../../documents/media/CreateOpenAI01.png)
+  <img src="../../documents/media/CreateOpenAI01.png" width=50% height=50%>
 
-「作成」をクリック
 
-![image-20230801132859779](../../documents/media/CreateOpenAI02.png)
+作成済のOpen AIリソースを選択します。
+今回、皆様には「Cognitive Services OpenAI 共同作成者」のロールを割り当てているのですが、Open AIの場合は、共同作成者の権限があっても、新規リソースが作成できないとのことで予め作成したものを利用していただきます。
 
-サブスクリプション「MSA_AzureWorkshop」を選択
+参考：[Azure OpenAI Service のロールベースのアクセス制御](https://learn.microsoft.com/ja-jp/azure/ai-services/openai/how-to/role-based-access-control)
 
-![image-20230801132846396](../../documents/media/CreateOpenAI03.png)
+  <img src="../../documents/media/CreateOpenAI03.png" width=50% height=50%>
 
-以下の内容で作成をクリック
-
-![image-20230801133225130](../../documents/media/CreateOpenAI04.png)
 
 リソースの作成が完了すると、キーとエンドポイントが発行されます。こちらの情報は後ほど使いますのでメモするようにしてください。
 
-![image-20230801134534501](../../documents/media/CreateOpenAI05.png)
+※キー情報は皆様から見れないため、チャットで共有します
 
+  <img src="../../documents/media/CreateOpenAI05.png" width=50% height=50%>
 
 
 ### Step 1. Sign in to Power Apps
@@ -45,7 +50,7 @@ Azure Portalへサインインし、検索窓からOpen AIを検索
 
 - From the top nav bar, click Import Canvas App and upload the power app zip file from this git repo path. 
 
-  [OpenAI-Playground_20230302010547.zip](https://github.com/KokiIijima24/OpenAIWorkshop/blob/main/scenarios/powerapp_and_python/powerapp/OpenAI-Playground_20230302010547.zip)
+  [OpenAI-Playground_20230302010547.zip](https://github.com/KokiIijima24/OpenAIWorkshop/blob/main/scenarios/powerapp_and_python/powerapp/OpenAIPlayground-JBSWorkshop_20230808082726.zip)
 
   
 
@@ -58,8 +63,9 @@ Azure Portalへサインインし、検索窓からOpen AIを検索
 
 - Click on Import to import the package into powerapps environment. 
 
+他の人とリソース名が被らないように、赤丸で囲った編集ボタンからリソース名を編集してください。
 
-  <img src="../../documents/media/importpowerappandflow.png" width=50% height=50%>
+  <img src="../../documents/media/ImportPowerAppsResource.png" width=50% height=50%>
 
 
 - This will import the Power App canvas app and the Power Automate Flow into the workspace. 
