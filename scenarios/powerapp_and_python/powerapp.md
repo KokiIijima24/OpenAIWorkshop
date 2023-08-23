@@ -33,8 +33,7 @@ Azure Portalへサインインし、検索窓からOpen AIを検索
 
 ※キー情報は皆様から見れないため、チャットで共有します
 
-  <img src="../../documents/media/CreateOpenAI05.png" width=50% height=50%>
-
+  <img width="50%" height="50%" alt="image" src="https://github.com/KokiIijima24/OpenAIWorkshop/assets/36002092/f360da00-ee37-4057-9eb7-2d6339346088">
 
 ### Step 1. Sign in to Power Apps
 
