@@ -17,11 +17,11 @@ Connect-AzAccount
 MEID情報取得
 
 ```powershell
-PS C:\Users\koiijima> Get-AzADUser -Mail koki.iijima@jbs.com
+PS C:\Users\koiijima> Get-AzADUser -Mail <mail address>
 
 DisplayName  Id                                   Mail                UserPrincipalName
 -----------  --                                   ----                -----------------
-Iijima, Koki a530a839-d6f6-44bf-a1bd-0bb58573b6a8 koki.iijima@jbs.com koiijima@jbs.com
+<name>      <id>                               <mail address>      <AAD account name>
 ```
 
 上記のIDがObject IDになる。
@@ -30,10 +30,10 @@ Iijima, Koki a530a839-d6f6-44bf-a1bd-0bb58573b6a8 koki.iijima@jbs.com koiijima@j
 Subscription単位でRoleを割り当てる
 
 ```powershell
-PS C:\Users\koiijima> $aad_id =  (Get-AzADUser -Mail koki.iijima@jbs.com).id
+PS C:\Users\koiijima> $aad_id =  (Get-AzADUser -Mail <mail address>).id
 PS C:\Users\koiijima> New-AzRoleAssignment -ObjectId $aad_id `
 >> -RoleDefinitionName 'Cognitive Services OpenAI Contributor' `
->> -Scope /subscriptions/4a638e79-e52d-4f0e-ba58-e6cc63b85ee3
+>> -Scope /subscriptions/<Subscription id>
 ```
 
 メールアドレスを入力すると、そのアドレスにOpen AIに対するロールを割り当てる関数を以下のように定義しました。
@@ -49,7 +49,7 @@ Function Add-RoleToOpenAIResource {
 
     New-AzRoleAssignment -ObjectId $aad_id `
     -RoleDefinitionName 'Cognitive Services OpenAI Contributor' `
-    -Scope /subscriptions/4a638e79-e52d-4f0e-ba58-e6cc63b85ee3
+    -Scope /subscriptions/<Subscription id>
 }
 ```
 
