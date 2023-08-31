@@ -1,10 +1,14 @@
+ワークショップ参加者へのAzure Resourceへの権限を付与する方法を記載しました。
+
 ## 目次
 
 - Subscriptionの用意
-    - 用意したSubscriotionに権限を割りてる
-
+- Subscriotionに権限を割りてる
 
 ## Subscitpion の用意
+
+社内のOneNoteを参照。
+EAポータルから払い出しを実施する。
 
 ### Subscriptionに権限の割り当て
 
